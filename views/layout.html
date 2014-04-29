@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %}BROWSE MY WikiStack{% endblock %}</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css" rel= "stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+    <body>
+      <div id="nav">
+        <p class="title"><a href = "../">WIKISTACK</a></p>
+        <ul>
+          <li><a href="/add">ADD PAGE</a></li>
+        </ul>
+      </div>
+      <h2>
+        {% block title-content %}{% endblock %}
+      </h2>
+    <hr>
+    {% block content %}{% endblock %}
+    <footer>
+      WikiStack, Fullstack Academy
+    </footer>
+  </body>
+</html>

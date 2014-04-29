@@ -1,0 +1,53 @@
+body {
+  padding: 0 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#nav {
+  padding: 10px 0 10px 40px;
+  margin: 0 -40px;
+  background-color: #333;
+  color:#999;
+  height:50px;
+}
+#nav .title {
+  font-size: 1.5em;
+  display: inline;
+  float:left;
+  margin-right: 40px;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  display: block;
+}
+
+#nav li{
+  float: left;
+  display: block;
+  font-size: .90em;
+  margin: 5px 40px auto 0;
+  display: inline;
+}
+#nav a, #nav a:hover {
+  color:#999;
+  text-decoration: none;
+}
+
+form input, form textarea, form button{
+  margin-bottom: 25px;
+}
+
+footer{
+  margin-top: 50px;
+  color:#777;
+}
+a {
+  color: #00B7FF;
+}
+
+.btn{
+  background-color: #33ADFF;
+  color:white;
+}
